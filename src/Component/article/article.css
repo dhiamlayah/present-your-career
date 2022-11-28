@@ -1,6 +1,7 @@
-.imgs{
-    padding : 6rem 2rem;
-    align-items: center;
-    justify-content: space-between;
+.slider{
     display: flex;
+    align-items: center;
+    padding: 4rem 27rem;
+
+
 }

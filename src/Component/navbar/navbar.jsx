@@ -7,8 +7,11 @@ class Navbar extends Component {
       <div className='project__navbar'>
         <div className='project__navbar--links'>
           <div className='project__navbar--links_logo'>
-            {/* <img src={logo} alt='logo' /> */}
-
+             <img src="images/Present.png" alt="a" /> 
+          </div>
+          <div className='project__navbar--links_Name'>
+              <h1>Present</h1>
+             <h3>your career</h3>
           </div>
           <div className='project__navbar--links_container'>
             <p><a href='#home'>Home</a></p>
@@ -18,8 +21,8 @@ class Navbar extends Component {
           </div>
         </div>
         <div className='project__navbar--sign'>
-          <p>sign in</p>
-          <button type='button'><a href='#signup'>sign up</a></button>
+          <p>sign in :</p>
+          <button type='button'><a href='#signup' className='aa'>sign up</a></button>
         </div>
         <div className='project__navbar--menu'>
         </div>

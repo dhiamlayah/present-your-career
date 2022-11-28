@@ -9,9 +9,7 @@ function App () {
              <div className='gradient__bg'>
                    <Navbar/>
                    <Header/>
-             </div>
-             <div className='aa'> <img  src="Images/9.png" alt='aa'/>
-             </div>
+            </div>
              <Brand/>
              <WhatPYC/>
              <Features/>
