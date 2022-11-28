@@ -1,0 +1,6 @@
+.imgs{
+    padding : 6rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
