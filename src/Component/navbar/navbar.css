@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* font-family: 'Dancing Script', cursive; */
+
 .project__navbar {
   display: flex;
   justify-content: space-between;
@@ -11,22 +14,36 @@
   justify-content: flex-start;
   align-items: center;
 }
- .project__navbar--links_logo {
-    
+/*/////////////////////////////////////////////////////////////////////////////*/
+.project__navbar--links_logo{
+  width: 250px;
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: -10px;
 }
- .project__navbar--links_logo img {
- margin-left: -70px;
-} 
-.project__navbar--links_logo h1,h3{
-    display: flex;
-    flex-direction: column;
-    background-color: aqua;
+.project__navbar--links_img{
+  margin:0px 0  0 -50px;
+}
+img{
+  border-radius: 10px;
+}
+.project__navbar--links_Name{
+  display: flex;
+}
+.part1{
+  font-family: 'Dancing Script', cursive; 
+ font-size: 50px;
+ margin-top: -50px;
+ margin-left: 10px;
+ color: var(--color2);
+}
+.part2{
+  font-family: 'Dancing Script', cursive;
+  color: var(--color1); 
 
 }
 
-
-
-
+/*////////////////////////////////////////////////////////////////////////////*/
 .project__navbar--links_container {
   display: flex;
   flex-direction: row;
