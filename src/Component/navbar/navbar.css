@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 6rem;
+  padding: 1.5rem 6rem;
 }
 .project__navbar--links {
   flex: 1;
@@ -55,7 +55,9 @@ img{
     color: #ff4820;
 }
 .project__navbar--links_container p::before{
-    content: "| ";
+    content: "|";
+    margin-right: -6px;
+    
 }
 .project__navbar--sign {
   display: flex;
@@ -76,9 +78,10 @@ img{
 }
 .project__navbar--sign button {
   padding: 0.5rem 1rem;
+  padding-left: 10px;
   color: #fff;
-  width: 152px;
-  height: 58px;
+  width: 120px;
+  height: 50px;
   left: 1153px;
   top: 55px;
   background-color: #ff4820;
@@ -89,9 +92,14 @@ img{
   font-size: 20px;
   line-height: 25px;
   border: 2px solid transparent;
-  transition: 0.4s;    
+  transition: 0.4s;   
 }
 .project__navbar--sign button:hover {
   background-color: transparent;
   border: 2px var(--color1) solid; /*tzayan l subscribe*/
+}
+.aa{
+  padding-left: 1px;
+  padding-right: 0;
+ 
 }

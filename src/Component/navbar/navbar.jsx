@@ -44,9 +44,7 @@ class Navbar extends Component {
         <div className="project__navbar--sign">
           <p>sign in :</p>
           <button type="button">
-            <a href="#signup" className="aa">
-              sign up
-            </a>
+            <a href="#signup" className="aa">sign up</a>
           </button>
         </div>
         <div className="project__navbar--menu"></div>
