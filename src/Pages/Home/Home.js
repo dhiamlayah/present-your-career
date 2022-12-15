@@ -5,8 +5,20 @@ import { Blag,Features,Footer,Possibility,WhatPYC,Header} from '../../containers
 const Home = ()=>{
    return (
     <>
-     <Navbar/>
-    
+     <div className='gradient__bg'>
+      <Header/>
+     </div>
+             <Brand/>
+             <WhatPYC/>
+             <Features/>
+             <Possibility/>
+             <Cta/>
+             <Blag/>
+             <Article />
+             <Feature />
+             <div className="gradient__bg">
+                       <Footer/>
+                </div>
     </>
    )
 
