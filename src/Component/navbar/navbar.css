@@ -48,10 +48,10 @@ img{
   display: flex;
   flex-direction: row;
 }
-.project__navbar--links_container a{
+.project__navbar--links_container Link{
     transition: 0.3s;
 }
-.project__navbar--links_container a:hover{
+.project__navbar--links_container Link:hover{
     color: #ff4820;
 }
 .project__navbar--links_container p::before{
@@ -65,7 +65,6 @@ img{
   align-items: center;
 }
 .project__navbar--links_container p,
-.project__navbar--sign p,
 .project__navbar--menu_container p {
   color: #fff;
   font-family: var(--font-family);
@@ -98,8 +97,18 @@ img{
   background-color: transparent;
   border: 2px var(--color1) solid; /*tzayan l subscribe*/
 }
-.aa{
+.SignUp{
   padding-left: 1px;
   padding-right: 0;
+  width:120px ;
+  height:50px ;
+  font-weight: 500;
  
+}
+#SignIn{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding-right: 7px;
+
 }

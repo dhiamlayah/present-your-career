@@ -16,9 +16,9 @@ const Home = ()=>{
              <Blag/>
              <Article />
              <Feature />
-             <div className="gradient__bg">
+     <div className="gradient__bg">
                        <Footer/>
-                </div>
+            </div>
     </>
    )
 
